@@ -1,0 +1,14 @@
+{
+  "slack_token": "xoxp-YOUR-TOKEN-HERE",
+  "coding_apps": [
+    "Code", "Visual Studio Code", "VSCode",
+    "RStudio", "R Console", "R Graphics",
+    "PyCharm", "IntelliJ", "Eclipse",
+    "Sublime Text", "Atom", "Vim", "Emacs",
+    "Electron"
+  ],
+  "deep_mode_threshold_seconds": 1200,
+  "check_interval_seconds": 1,
+  "dnd_duration_minutes": 60,
+  "status_update_interval_seconds": 1800
+}
