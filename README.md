@@ -10,7 +10,7 @@ Automatically updates your Slack status and enables Do Not Disturb when you're i
 
 ## Installation
 
-1. Clone this repository: git clone https://github.com/rb-sukiw/deep-coding-mode.git
+1. Clone this repository: git clone https://github.com/sw-ds-proj/deep-coding-mode.git
 cd deep-coding-mode
 2. Install dependencies: pip install -r requirements.txt
 3. Run the script once to generate the config file: python coding_monitor.py
