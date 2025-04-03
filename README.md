@@ -10,11 +10,23 @@ Automatically updates your Slack status and enables Do Not Disturb when you're i
 
 ## Installation
 
-1. Clone this repository: git clone https://github.com/sw-ds-proj/deep-coding-mode.git
-cd deep-coding-mode
-2. Install dependencies: pip install -r requirements.txt
-3. Run the script once to generate the config file: python coding_monitor.py
-4. Add your Slack token to the config file: nano ~/.coding_monitor.json
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/deep-coding-mode.git
+   cd deep-coding-mode
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. Run the script once to generate the config file:
+   ```bash
+   python coding_monitor.py
+   ```
+7. Add your Slack token to the config file:
+   ```bash
+   nano ~/.coding_monitor.json
+   ```
 
 ## Configuration 
 
@@ -26,8 +38,16 @@ Edit `~/.coding_monitor.json` to customize:
 
 ## Usage
 
-Run the script: python coding_monitor.py
-To run in the background: nohup python coding_monitor.py &
+Run the script: 
+```bash
+python coding_monitor.py
+```
+
+## Running in the background:
+To run the script in the background so it continues working even when you close your terminal:
+```bash
+nohup python coding_monitor.py &
+```
 
 ## License
 MIT License
